@@ -1,0 +1,8 @@
+const sad = [2, 3, 1, 7 ,9];
+const sadTime = sad.map(num => num*3);
+console.log(sadTime);
+var caca = sadTime.filter((num) => num%2!==0);
+console.log(caca);
+var sortedArr = caca.sort((a,b)=> a-b);
+var lastNum = sortedArr[sortedArr.length -1]
+console.log(lastNum);
